@@ -1122,30 +1122,30 @@
 
         <div class="row">
           <div class="col-lg-7">
-            <form name="contact" class="contact-form" data-aos="fade-up" data-aos-delay="100" method="POST" data-netlify="true">
+            <form name="contact" class="contact-form" data-aos="fade-up" data-aos-delay="100" action="POST" data-netlify="true">
               <div class="row">
                 <div class="col-6">
                   <div class="form-group">
                     <label class="" for="fname">First name</label>
-                    <input type="text" class="form-control" id="fname" />
+                    <input type="text" class="form-control" name="fName" id="fName" />
                   </div>
                 </div>
                 <div class="col-6">
                   <div class="form-group">
                     <label class="" for="lname">Last name</label>
-                    <input type="text" class="form-control" id="lname" />
+                    <input type="text" class="form-control" name="lName"id="lName" />
                   </div>
                 </div>
               </div>
               <div class="form-group">
                 <label class="" for="email">Email address</label>
-                <input type="email" class="form-control" id="email" />
+                <input type="email" class="form-control" name="email"id="email" />
               </div>
 
               <div class="form-group">
                 <label class="" for="message">Message</label>
                 <textarea
-                  name=""
+                  name="message"
                   class="form-control"
                   id="message"
                   cols="30"
