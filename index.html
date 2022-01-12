@@ -59,7 +59,7 @@
               <a href="#home-section" class="nav-link">Home</a>
             </li>
             <li><a href="#about-section" class="nav-link">About</a></li>
-            <!-- <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li> -->
+            <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li>
             <!-- <li><a href="#services-section" class="nav-link">Services</a></li> -->
             <li><a href="#resume-section" class="nav-link">Resume</a></li>
             <!-- <li><a href="#blog-section" class="nav-link">Blog</a></li> -->
@@ -89,7 +89,7 @@
 
     <div
       class="site-blocks-cover overlay"
-      style="background-image: url(images/ScottHeadShotCentered.jpg)"
+      style="background-image: url(assets/images/ScottHeadShotCentered.jpg)"
       data-aos="fade"
       data-stellar-background-ratio="0.5"
       id="home-section"
@@ -116,8 +116,8 @@
           >
             <div class="img-wrap">
               <img
-                src="images/ScottsHeadshotBW.jpg"
-                alt="Image placeholder"
+                src="assets/images/ScottsHeadshotBW.jpg"
+                alt="black and white headshot"
                 class="img-fluid"
               />
             </div>
@@ -140,22 +140,6 @@
 
             <div class="my-5">
               <div class="skill">
-                <h3>Design</h3>
-                <div class="progress">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    style="width: 85%"
-                    aria-valuenow="85"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  >
-                    <span>85%</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="skill">
                 <h3>HTML5</h3>
                 <div class="progress">
                   <div
@@ -170,55 +154,72 @@
                   </div>
                 </div>
               </div>
-
+              
+              
               <div class="skill">
                 <h3>CSS3</h3>
                 <div class="progress">
                   <div
-                    class="progress-bar"
-                    role="progressbar"
-                    style="width: 90%"
-                    aria-valuenow="90"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 90%"
+                  aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
                   >
-                    <span>97%</span>
-                  </div>
-                </div>
-              </div>
-
-              <!-- <div class="skill">
-                <h3>WordPress</h3>
-                <div class="progress">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    style="width: 88%"
-                    aria-valuenow="88"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  >
-                    <span>88%</span>
-                  </div>
-                </div>
-              </div> -->
-
-              <div class="skill">
-                <h3>Bootstrap</h3>
-                <div class="progress">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    style="width: 92%"
-                    aria-valuenow="92"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  >
-                    <span>92%</span>
-                  </div>
+                  <span>97%</span>
                 </div>
               </div>
             </div>
+            
+            <div class="skill">
+              <h3>JavaScript</h3>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 70%"
+                  aria-valuenow="70"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <span>70%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <h3>Bootstrap</h3>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 92%"
+                  aria-valuenow="92"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <span>92%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+              <div class="skill">
+                <h3>React</h3>
+                <div class="progress">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 65%"
+                    aria-valuenow="65"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <span>65%</span>
+                  </div>
+                </div>
+              </div>
+
 
             <p>
               <a href="#contact-section" class="btn btn-primary smoothscroll"
@@ -230,7 +231,7 @@
         </div>
       </div>
     </section>
-<!-- 
+
     <section class="untree_co-section" id="portfolio-section">
       <div class="container">
         <div class="row">
@@ -245,10 +246,10 @@
         <div class="filters" data-aos="fade-up" data-aos-delay="100">
           <ul>
             <li class="active" data-filter="*">All</li>
-            <li data-filter=".packaging">Packaging</li>
-            <li data-filter=".mockup">Mockup</li>
-            <li data-filter=".typography">Typography</li>
-            <li data-filter=".photography">Photography</li>
+            <li data-filter=".htmlCSS">HTML/CSS</li>
+            <!-- <li data-filter=".javaScript">JavaScript</li>
+            <li data-filter=".react">React</li>
+            <li data-filter=".photography">Photography</li> -->
           </ul>
         </div>
 
@@ -258,25 +259,26 @@
           data-aos-delay="200"
         >
           <div class="row grid">
-            <div class="single-portfolio col-sm-4 all mockup">
-              <a href="images/work_5.jpg" data-fancybox="gal">
-                <img src="images/work_5.jpg" alt="Image" class="img-fluid" />
+            <div class="single-portfolio col-sm-4 all htmlCSS">
+              <a  href="assets/images/memoryGame.png" data-fancybox="gal">
+                <img src="assets/images/memoryGame.png" alt="drag queen memory game" class="img-fluid" />
                 <div class="contents">
-                  <h3>Card Vol. 3</h3>
-                  <div class="cat">Mockup</div>
+                  <h3>Drag Queen Memory Game</h3>
+                  <div class="cat">Game</div>
                 </div>
               </a>
             </div>
-            <div class="single-portfolio col-sm-4 all typography">
-              <a href="images/work_1.jpg" data-fancybox="gal">
-                <img src="images/work_1.jpg" alt="Image" class="img-fluid" />
+
+            <div class="single-portfolio col-sm-4 all htmlCSS">
+              <a href="assets/images/dragQueenWackAMole.png" data-fancybox="gal">
+                <img src="assets/images/dragQueenWackAMole.png" alt="Image" class="img-fluid" />
                 <div class="contents">
-                  <h3>House Design</h3>
-                  <div class="cat">Typography</div>
+                  <h3>Drag Queen Wack-A-Mole</h3>
+                  <div class="cat">Game</div>
                 </div>
               </a>
             </div>
-            <div class="single-portfolio col-sm-4 all mockup">
+            <!-- <div class="single-portfolio col-sm-4 all mockup">
               <a href="images/work_2.jpg" data-fancybox="gal">
                 <img src="images/work_2.jpg" alt="Image" class="img-fluid" />
                 <div class="contents">
@@ -320,11 +322,11 @@
                   <div class="cat">Photography</div>
                 </div>
               </a>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
     <!-- .untrtee_co-section -->
 
     <!-- <div class="untree_co-section" id="services-section">
