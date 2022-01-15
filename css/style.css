@@ -1870,7 +1870,14 @@ h4,
   color: #ffffff;
 }
 
-.fa-github {
-  align-items: center;
+.fab {
   font-size: 75px;
+  margin: auto;
+  width: 65%;
+  padding: 10px;
+}
+
+#github {
+  width: 50%;
+  margin: auto;
 }
