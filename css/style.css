@@ -1869,3 +1869,8 @@ h4,
   background: #b1cc9e;
   color: #ffffff;
 }
+
+.fa-github {
+  align-items: center;
+  font-size: 75px;
+}
