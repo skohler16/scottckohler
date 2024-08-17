@@ -1,3 +1,2 @@
 # scottckohler
-my 1st website
-I don't really know what to put in the read me just yet but... here it is!!
+Welcome to my Portfolio page right here on the world wide web. I have worked extreamly hard on this page as well as on learning the languages that I have choosen to write them in. Please check it out and enjoy!!

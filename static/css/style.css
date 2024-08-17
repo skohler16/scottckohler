@@ -1,10 +1,10 @@
 body {
   font-family: "Nunito", sans-serif;
   line-height: 1.6;
-  background: #ffffff;
+  background: #29422a;
   overflow-x: hidden;
   font-size: 16px;
-  color: #939393;
+  color: #fc9dc3; /*main text color*/
 }
 body:before {
   content: "";
@@ -14,7 +14,7 @@ body:before {
   z-index: 99;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.2);
+  background: #eb91b5;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: 0.3s all ease;
@@ -43,13 +43,13 @@ body.offcanvas-menu:before {
 }
 
 a {
-  color: #96bb7c;
+  color: #FFC4DD;
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
   transition: 0.3s all ease;
 }
 a:hover {
-  color: #96bb7c;
+  color: #E4AEC5;
   text-decoration: none;
 }
 
