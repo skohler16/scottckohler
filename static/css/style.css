@@ -1850,9 +1850,9 @@ h4,
   width: 30px;
   height: 30px;
   position: relative;
-  background: #777;
+  background: #101f0f;
   border-radius: 50%;
-  color: #ffffff;
+  color: goldenrod;
 }
 .site-footer .social li a:before {
   display: none;
@@ -1866,8 +1866,8 @@ h4,
   transform: translate(-50%, -50%);
 }
 .site-footer .social li a:hover {
-  background: #b1cc9e;
-  color: #ffffff;
+  background: #596b4c;
+  color: goldenrod;
 }
 
 .fab {
