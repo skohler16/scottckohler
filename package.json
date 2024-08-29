@@ -1,7 +1,7 @@
 {
   "name": "scottckohler",
   "version": "1.0.0",
-  "description": "my 1st website I don't really know what to put in the read me just yet but... here it is!!",
+  "description": "",
   "main": "index.js",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/skohler16/scottckohler.git"
   },
-  "author": "",
+  "author": "Scooter Kohler",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/skohler16/scottckohler/issues"
